@@ -1,11 +1,13 @@
 package collection.com;
-
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.function.Consumer;
+import java.util.Comparator;
 
-public class Customers {
+public class Customers implements  Comparable<Customers>
+ {
 
 	ArrayList<Shop>l;
 
